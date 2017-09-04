@@ -1,0 +1,149 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-top: 20px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+a {
+  color: #16A765;
+}
+
+a.section-icon:hover {
+  color: #16A765;
+  text-decoration: none;
+}
+
+a.my-btn {
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  border: #16A765 solid 1pt;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+a.my-btn:hover {
+  color: white;
+  text-decoration: none;
+  background: #16A765;
+}
+
+#name {
+  font-family: 'Shadows Into Light', cursive !important;
+  font-size: 6em !important;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.info {
+  margin-top: 50px;
+  margin-left: 40px;
+  text-transform: lowercase;
+  color: #333;
+}
+
+.info p {
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
+}
+
+.info ul {
+  /*list-style: none;*/
+  font-size: 12px;
+  padding-left: 0;
+}
+
+.section {
+  font-size: 25px;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 0;
+  text-decoration: #16A765 dotted underline;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.date {
+  font-size: 14px;
+}
+
+/*.images {
+  height: 50px;
+  display: inline-block;
+  float:left;
+  overflow-x: scroll;
+}
+
+.images img {
+  display: table-cell;
+  display: inline-block;
+  float:left;
+  height: 100%;
+  width: auto;
+}*/
+
+/* Icons */
+
+ul.icons {
+  float:right;
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 40px;
+  margin-top: -0.675em;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0.675em 0.5em;
+}
+
+ul.icons a {
+  color: gray;
+}
+
+ul.icons a:hover {
+  color: #16A765;
+
+}
+
+.icons i {
+  border: gray 1pt solid;
+  border-radius: 50px;
+  padding: 7px;
+}
+
+.icons i:hover { 
+  border: #16A765 1pt solid;
+}
