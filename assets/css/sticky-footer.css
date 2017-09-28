@@ -42,6 +42,9 @@ a.my-btn {
   padding: 8px;
   border-radius: 10px;
   margin: 20px 0;
+  white-space: nowrap;
+  float: left;
+  margin: 0px 10px 10px 0px;
 }
 
 a.my-btn:hover {
@@ -53,6 +56,7 @@ a.my-btn:hover {
 #name {
   font-family: 'Shadows Into Light', cursive !important;
   font-size: 6em !important;
+  padding-left: 20px !important;
 }
 
 .container {
@@ -63,7 +67,7 @@ a.my-btn:hover {
 
 .info {
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 60px;
   text-transform: lowercase;
   color: #333;
 }
